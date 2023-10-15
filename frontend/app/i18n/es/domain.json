@@ -1,0 +1,34 @@
+{
+    "technicaltest": {
+        "description": "prueba técnica"
+    },
+    "posts": {
+        "empty": "no hay publicaciones",
+        "loading": "cargando las publicaciones",
+        "id": "id",
+        "userid": "id de usuario",
+        "order": {
+            "id": "ordenados por ID",
+            "up": "ordenados por título A-Z",
+            "down": "ordenados por título Z-A"
+        }
+    },
+    "language": {
+        "change": "cambiar idioma"
+    },
+    "filters": {
+        "title": "filtros",
+        "empty": "no hay filtros",
+        "filterby": "filtrar por",
+        "users": {
+            "title": "ID de usuario",
+            "empty": "no ha agregado ningún ID de usuario",
+            "selected": "IDs de usuario"
+        },
+        "content": {
+            "usersids": "IDs de usuario",
+            "title": "contiene",
+            "contains": "contiene"
+        }
+    }
+}

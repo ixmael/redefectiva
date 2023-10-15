@@ -1,0 +1,38 @@
+.filters {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: relative;
+
+    & .empty {
+        margin-left: 1rem;
+        color: rgba(0, 0, 0, 0.4);
+        font-weight: bold;
+    }
+
+    & .filtersList {
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+
+        &>div {
+            border-radius: 1rem;
+            padding: 0.5rem;
+            margin-left: 0.5rem;
+        }
+
+        & .filtersTitle {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        & .userids {
+            background-color: aliceblue;
+
+        }
+
+        & .content {
+            background-color: beige;
+        }
+    }
+}

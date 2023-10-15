@@ -1,0 +1,49 @@
+.filtersForm {
+    // background-color: rgba(143, 0, 255, 0.2);
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    padding: 2rem;
+    box-shadow: 2px 2px 23px 1px rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: 2px 2px 23px 1px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 2px 2px 23px 1px rgba(0, 0, 0, 0.38);
+    z-index: 1000;
+
+    & .usersidform {
+        padding: 5rem 0;
+    }
+
+    & .contentform {
+        padding: 5rem 0;
+    }
+
+    & .filtersDescription {
+        color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        & > * {
+            margin-left: 0.5rem;
+        }
+
+        & .usersidsList {
+            margin-left: 5px;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+
+        & .content {
+            margin-left: 5px;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+    }
+
+    & .actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

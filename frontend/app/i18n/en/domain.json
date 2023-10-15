@@ -1,0 +1,34 @@
+{
+    "technicaltest": {
+        "description": "technical test"
+    },
+    "posts": {
+        "empty": "there are not posts",
+        "loading": "loading posts",
+        "id": "id",
+        "userid": "user's id",
+        "order": {
+            "id": "order by ID",
+            "up": "order by title A-Z",
+            "down": "order by title Z-A"
+        }
+    },
+    "language": {
+        "change": "change language"
+    },
+    "filters": {
+        "title": "filters",
+        "empty": "no filters",
+        "filterby": "filter by",
+        "users": {
+            "title": "user's ID",
+            "empty": "any id selected",
+            "selected": "user's ID"
+        },
+        "content": {
+            "usersids": "users' IDs",
+            "title": "contains",
+            "contains": "contains"
+        }
+    }
+}
