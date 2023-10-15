@@ -3,7 +3,7 @@ import { createContext } from 'react'
 import { PostType } from './core/domain/post'
 
 export const PostsContext = createContext([])
-export const PostsDispatchContext = createContext(null)
+export const PostsDispatchContext = createContext((a: any) => {})
 
 let initialPosts: Array<PostType> = []
 
