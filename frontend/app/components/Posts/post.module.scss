@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .metadata {
+        display: flex;
+        align-items: center;
+
+        & .metadataUserID {
+            
+        }
+    }
+}
+
+.content {
+    margin-bottom: 2rem;
+}

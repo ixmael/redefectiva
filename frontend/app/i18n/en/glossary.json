@@ -1,0 +1,10 @@
+{
+    "id": "id",
+    "userid": "user's id",
+    "title": "title",
+    "body": "content",
+    "posts": "posts",
+    "filter": "filter",
+    "clear": "clean",
+    "add": "add"
+}

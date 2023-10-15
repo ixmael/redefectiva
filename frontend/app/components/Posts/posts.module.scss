@@ -1,0 +1,9 @@
+.posts {
+    & .header {
+        text-transform: uppercase;
+    }
+
+    & .content {
+        margin-top: 2rem;
+    }
+}

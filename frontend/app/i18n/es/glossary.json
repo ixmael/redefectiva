@@ -1,0 +1,10 @@
+{
+    "id": "id",
+    "userid": "id de usuario",
+    "title": "título",
+    "body": "contenido",
+    "posts": "publicaciones",
+    "filter": "filtrar",
+    "clear": "limpiar",
+    "add": "agregar"
+}

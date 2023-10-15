@@ -1,0 +1,16 @@
+.main {
+    padding-bottom: 3rem;
+
+    & .loading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & .info {
+            text-transform: uppercase;
+            font-size: 2rem;
+            margin: 2rem 0;
+            color: rgba(0,0,0,0.6);
+        }
+    }
+}
